@@ -1,8 +1,39 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  color: inherit;
+  font-family: "Roboto", sans-serif;
+  font-size: inherit;
+  box-shadow: none;
+  box-sizing: border-box;
+}
 
 body {
-    height: 3000px; /* Used to enable scrolling */
-    background: linear-gradient(0deg, #e15421 0%, #ffffff 51%, rgb(255, 255, 255) 85%);
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    height: 5000px; /* Used to enable scrolling */
+    background: linear-gradient(0deg, #e15421 30%, #ffffff 80%, rgb(255, 255, 255) 85%);
   }
+
+.title {
+      font-size: 5rem;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+.fill{
+    height:4200px
+}
 
 .button {
     display: inline-block;
