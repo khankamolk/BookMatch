@@ -1,0 +1,13 @@
+
+body {
+    height: 3000px; /* Used to enable scrolling */
+    background: linear-gradient(0deg, #e15421 0%, #ffffff 51%, rgb(255, 255, 255) 85%);
+  }
+
+.button {
+    display: inline-block;
+    margin-right: 20px;}
+    
+ .action_btn {
+    width: 500px;
+    margin: 0 auto;}
