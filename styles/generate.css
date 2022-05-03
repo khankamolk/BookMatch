@@ -33,25 +33,31 @@ body {
     font-weight: bold;
 }
 
+.details {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding:1em 3.2em;
+}
 
 
 .button {display:inline-block; 
     padding:1em 3.2em;
     margin:0 0.3em 0.3em 0;
     border-radius:2em;
-    border:0.1em solid #de601d;
+    border:0.1em solid #ffffff;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:500;
-    color:#FFFFFF;
-    background-color:#de601d;
+    color:#000000;
+    background-color:#ffffff;
     text-align:center;
     transition: all 0.2s;
 }
 .button:hover{
-    background-color:#c94904;
-    border: 0.1em solid #c94904;
+    background-color:#de601d;
+    border: 0.1em solid #de601d;
+    color:#ffffff;
 }     
 .action_btn {
     width: 500px;
@@ -84,5 +90,5 @@ a.button1:hover{
 }
 
 .fill{
-    height:150px
+    height:100px
 }
